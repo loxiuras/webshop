@@ -1,0 +1,24 @@
+{
+  "name": "webshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loxiuras/webshop.git"
+  },
+  "author": "Loxiuras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loxiuras/webshop/issues"
+  },
+  "homepage": "https://github.com/loxiuras/webshop#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
