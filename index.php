@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title></title>
     <meta charset="UTF-8">
@@ -9,6 +9,6 @@
 <body>
 
 
-
+<script defer src="https://pro.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-RLPiEwcAdrH2NjFcwJipJtlFoIN1xvqPYeeDX5yYtSNu+HTIkQCDvPQ9thsUnPUS" crossorigin="anonymous"></script>
 </body>
 </html>
