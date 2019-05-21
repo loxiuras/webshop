@@ -11,12 +11,6 @@
 </head>
 <body>
 
-<?php
-
-$_SESSION['items']["A"] = "asdasd";
-
-?>
-
 <div id="site">
     <?php require_once "mvc/modules/header.php"; ?>
 </div>
