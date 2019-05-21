@@ -1,0 +1,74 @@
+@import "../variables";
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 25px 0;
+  background-color: $primaryColor;
+
+  .logo-wrap {
+    display: inline-block;
+    width: auto;
+
+    .logo {
+      color: $whiteColor;
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .nav {
+    width: auto;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .nav__item {
+      width: auto;
+      margin-right: 10px;
+      padding: 5px 10px;
+
+      .nav__item-link {
+        color: $whiteColor;
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.3px;
+        text-decoration: none;
+
+        &.shoppingcart {
+          position: relative;
+
+          .shoppingcartAmount {
+            position: absolute;
+            top: -7px;
+            right: -7px;
+            width: 15px;
+            height: 15px;
+            background-color: $redColor;
+            color: $whiteColor;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 8px;
+          }
+        }
+      }
+
+      &.login {
+        border: 1px solid $whiteColor;
+        border-radius: 0;
+      }
+    }
+  }
+}
