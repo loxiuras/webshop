@@ -13,7 +13,7 @@
 
         <nav class="nav">
             <div class="nav__item login">
-                <a href="" class="nav__item-link">
+                <a href="" class="nav__item-link login">
                     <div class="icon"><i class="fas fa-user"></i></div>
                     <div class="text">Login</div>
                 </a>
