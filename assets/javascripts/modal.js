@@ -24,11 +24,7 @@ class Modal {
 
     buildModal()
     {
-        var node = document.createElement("LI");
-        var textnode = document.createTextNode("Water");
-        node.appendChild(textnode);
 
-        document.getElementById('body').appendChild(node);
     }
 
     destroyModal()
