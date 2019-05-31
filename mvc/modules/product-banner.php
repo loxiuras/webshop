@@ -1,6 +1,10 @@
 <div class="product-banner">
     <div class="inner">
 
+        <div class="title-wrap">
+            <h3 class="title">Promo heroes</h3>
+        </div>
+
         <div class="products">
             <div class="product">
                 <img class="product__image" src="assets/images/gods/cuchulainn.png" alt="Cuchulainn">
