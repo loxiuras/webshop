@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/stylesheets/minified/style.css">
     <script defer src="https://pro.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-RLPiEwcAdrH2NjFcwJipJtlFoIN1xvqPYeeDX5yYtSNu+HTIkQCDvPQ9thsUnPUS" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="body">
 
 <?php
 $_SESSION['items']['A'] = "A";
@@ -23,5 +23,6 @@ $_SESSION['items']['B'] = "B";
     <?php require_once "mvc/modules/product-banner.php"; ?>
 </div>
 
+<script src="/assets/javascripts/modal.js"></script>
 </body>
 </html>
