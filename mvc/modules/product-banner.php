@@ -2,7 +2,7 @@
     <div class="inner">
 
         <div class="title-wrap">
-            <h3 class="title">Promo heroes</h3>
+            <h3 class="title">Free rotation for this week</h3>
         </div>
 
         <div class="products">

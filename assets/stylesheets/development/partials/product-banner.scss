@@ -23,9 +23,21 @@
 
     .title {
       font-size: 36px;
-      font-weight: 600;
+      font-weight: 300;
       letter-spacing: 0.5px;
       color: $whiteColor;
+      position: relative;
+
+      $titleAfterWidth: 350px;
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        width: $titleAfterWidth;
+        left: calc(50% - calc(#{$titleAfterWidth} / 2));
+        height: 2px;
+        background-color: #85784a;
+      }
     }
   }
 

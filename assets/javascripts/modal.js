@@ -17,7 +17,7 @@ class Modal {
 
     addContent( data )
     {
-        let html = (this.m_CloseIcon) ? "<div class='modal__close-icon'><i class='fal fa-times'></i></div>" : "";
+        let html = (this.m_CloseIcon) ? "<div class='modal__close-icon' onclick='closeModalWithId("+this.name+");'><i class='fal fa-times'></i></div>" : "";
         this.m_Header = (data.header) ? data.header : "";
         this.m_Body = (data.body) ? data.body : "";
         this.m_Footer = (data.footer) ? data.footer : "";
@@ -49,6 +49,11 @@ class Modal {
     {
         document.getElementById(this.name).remove();
     }
+}
+
+function closeModalWithId( id )
+{
+    id.remove();
 }
 
 function createLoginModal(e)
