@@ -4,13 +4,12 @@
   width: 100%;
   height: auto;
   background-color: #112237;
-  background-image: url("../../../assets/images/gods/gods-bkg.jpg");
+  background-image: url(/assets/images/gods/gods-bkg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  border-top: 1px solid #85784a;
 
   .inner {
     padding: 50px 0;
